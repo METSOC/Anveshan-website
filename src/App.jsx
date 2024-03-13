@@ -1,9 +1,17 @@
+import { Route, Routes } from "react-router-dom";
+import Registration from "./pages/Registration";
+import Homepage from "./pages/Homepage";
+
 function App() {
-	return (
-		<>
-			<h1 className="text-lg text-red-600">Hello</h1>
-		</>
-	);
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/login" element={<Registration type="login" />} />
+        <Route path="/signup" element={<Registration type="signup" />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
