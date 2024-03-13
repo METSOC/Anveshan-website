@@ -3,6 +3,7 @@ import AnimationWrapper from "../components/animation.jsx";
 import { Toaster, toast } from "react-hot-toast";
 import InputBox from "../components/InputBox.jsx";
 import logo from "../../public/AnvLogo.svg";
+import bg from "../../public/bg.svg";
 
 const Registration = ({ type }) => {
   const handleSubmit = (e) => {
@@ -31,7 +32,7 @@ const Registration = ({ type }) => {
     // }
   };
 
-  const backgroundImageUrl = "url(public/bg.svg)";
+  const backgroundImageUrl = `url(${bg})`;
 
   return (
     <AnimationWrapper keyValue={type}>
