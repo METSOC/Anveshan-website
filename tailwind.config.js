@@ -28,6 +28,7 @@ export default {
       fontFamily: {
         inter: ["'Inter'", "sans-serif"],
         gelasio: ["'Gelasio'", "serif"],
+        jost: ["Jost", "sans-serif"],
       },
     },
   },
