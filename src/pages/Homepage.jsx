@@ -80,7 +80,7 @@ const Homepage = () => {
             </h1>
           </div>
           <div className="flex sm:flex-col sm:items-center items-center">
-            <div className="flex sm:flex-row flex-col sm:items-center items-center justify-center bg-[#1B1B1B] w-[410px] sm:w-[1263px] h-[100px] rounded-full sm:gap-12 gap-2 mt-48">
+            <div className="flex sm:flex-row flex-col sm:items-center items-center justify-center bg-[#1B1B1B] w-[350px] sm:w-[1263px] h-[100px] rounded-full sm:gap-12 gap-2 mt-48">
               <h1 className="text-white font-jost sm:text-3xl text-sm">
                 TIME LEFT FOR LAUNCH
               </h1>
