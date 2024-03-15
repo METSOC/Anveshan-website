@@ -35,7 +35,7 @@ const CountdownTimer = ({ targetDate }) => {
     }
 
     timerComponents.push(
-      <span key={interval} className="text-3xl">
+      <span key={interval} className="sm:text-3xl text-sm">
         {timeLeft[interval]} {interval.toUpperCase()}
         {index < Object.keys(timeLeft).length - 1 && " : "}{" "}
         {/* Add colon if it's not the last interval */}
