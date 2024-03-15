@@ -72,7 +72,7 @@ const Slider = () => {
 
   return (
     <div className="relative">
-      <div className="flex flex-col sm:gap-96 gap-72 items-center lg:items-start">
+      <div className="flex flex-col sm:gap-96 gap-72 lg:items-start xl:items-start items-center md:items-center">
         <div className="relative ">
           <div className="w-[245px] sm:w-[500px] h-[298px] ">
             {images_r.map((image, index) => (
@@ -80,12 +80,12 @@ const Slider = () => {
                 key={index}
                 className={`absolute transition-transform duration-1000 ${
                   index === currentIndex ? "opacity-100" : "opacity-0"
-                } flex sm:flex-row sm:gap-40 flex-col-reverse items-center sm:items-center gap-20`}
+                } flex lg:flex-row xl:flex-row sm:gap-40 flex-col-reverse items-center sm:items-center gap-20`}
               >
                 <img
                   src={image.url}
                   alt={image.name}
-                  className="sm:w-[535px] sm:h-[618px] object-cover"
+                  className="xl:w-[535px] xl:h-[618px] lg:w-[535px] lg:h-[618px] object-cover"
                 />
                 <div className="flex flex-col mt-20">
                   <h1 className="w-full text-white font-jost text-5xl font-semibold">
@@ -107,7 +107,7 @@ const Slider = () => {
                 <img
                   src={image.url}
                   alt={image.text}
-                  className={`sm:w-[245px] sm:h-[298px] w-[80px] h-[80px]`}
+                  className={`lg:w-[200px] lg:h-[200px] xl:w-[245px] xl:h-[298px] w-[80px] h-[80px]`}
                 />
               </div>
             ))}
@@ -116,13 +116,13 @@ const Slider = () => {
       </div>
 
       <button
-        className="absolute sm:ml-[-100px] top-1/2 transform -translate-y-1/2 bg-gray-800 text-[#F07946] text-5xl px-3 py-2 rounded-full opacity-75 hover:opacity-100 font-bold"
+        className="absolute xl:ml-[-100px] lg:ml-[-80px] top-1/2 transform -translate-y-1/2 bg-gray-800 text-[#F07946] text-5xl px-3 py-2 rounded-full opacity-75 hover:opacity-100 font-bold"
         onClick={goToPrevSlide}
       >
         &lt;
       </button>
       <button
-        className="absolute sm:mr-[-100px] top-1/2 right-1 transform -translate-y-1/2 bg-gray-800 text-[#F07946] text-5xl px-3 py-2 rounded-full opacity-75 hover:opacity-100 font-bold"
+        className="absolute xl:mr-[-100px] lg:mr-[-80px] top-1/2 right-1 transform -translate-y-1/2 bg-gray-800 text-[#F07946] text-5xl px-3 py-2 rounded-full opacity-75 hover:opacity-100 font-bold"
         onClick={goToNextSlide}
       >
         &gt;
