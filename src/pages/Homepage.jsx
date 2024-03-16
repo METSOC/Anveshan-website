@@ -3,6 +3,7 @@ import hero from "../../public/hero.svg";
 import CountdownTimer from "../components/countdown";
 import Speaker from "../components/speakers";
 import Slider from "../components/slider";
+import Navbar from "../components/Navbar/Navbar";
 
 const backgroundImageUrl = `url(${hero})`;
 const Homepage = () => {
@@ -13,6 +14,7 @@ const Homepage = () => {
   return (
     <>
       <div
+  
         style={{
           backgroundImage: backgroundImageUrl,
           backgroundSize: "",
@@ -23,8 +25,14 @@ const Homepage = () => {
         }}
         className="bg-[#000000] w-full h-full "
       >
+         
         <div className="flex flex-col">
+          <div className=" w-100 flex justify-center font-bold"> <div className="mt-10">
+           <Navbar/>
+           </div></div>
+        
           <div className="flex flex-row">
+            
             <h1 className="text-white text-[200px] font-jost mt-32 ml-64">
               reborn
             </h1>
