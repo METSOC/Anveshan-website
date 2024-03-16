@@ -23,7 +23,7 @@ const Speaker = () => {
         height: "100%",
       }}
     >
-      <div className="flex flex-col items-center justify-center gap-10">
+      <div className="flex flex-col items-center justify-center gap-10 bg-[#00000085]">
         <div className="relative">
           <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
             <h1
