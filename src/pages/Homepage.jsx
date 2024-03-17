@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import hero from "../../public/hero.svg";
 import CountdownTimer from "../components/countdown";
 import Speaker from "../components/speakers";
+import Navbar from "../components/Navbar";
 
 const backgroundImageUrl = `url(${hero})`;
 const Homepage = () => {
@@ -11,6 +12,7 @@ const Homepage = () => {
 
   return (
     <>
+    <Navbar/>
       <div
         style={{
           backgroundImage: backgroundImageUrl,
