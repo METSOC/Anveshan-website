@@ -1,6 +1,7 @@
 import bg from "../../public/bg.svg";
 import Slider from "./slider";
 import border from "../../public/border.svg";
+import { FAQ } from "./faq";
 
 const backgroundImageUrl = `url(${bg})`;
 
@@ -17,7 +18,7 @@ const Speaker = () => {
     <div
       style={{
         backgroundImage: backgroundImageUrl,
-        backgroundSize: "",
+
         backgroundPosition: "center",
         width: "100%",
         height: "100%",
@@ -36,6 +37,8 @@ const Speaker = () => {
           <img src={border} className="z-[-1] mt-20" />
         </div>
         <Slider />
+
+        <FAQ />
       </div>
     </div>
   );
