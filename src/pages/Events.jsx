@@ -3,11 +3,12 @@ import Lottie from "lottie-react";
 import animation from '../../public/lottie.json'
 import bgImage from "../../public/spark.png"
 import TimelinePage from './Timeline';
+import Navbar from '../components/Navbar';
 
 const Events = () => {
   return (
     <>
-      
+      <Navbar/>
       <div className="relative bg-cover bg-center h-screen flex items-center" style={{backgroundImage: `url(${bgImage})`}}>
 
       <section className="grid mx-auto h-[90vh] px-4  sm:px-6 lg:px-8 max-w-full">
@@ -18,8 +19,8 @@ const Events = () => {
              <p className="text-5xl text-white font-bold mb-16">
              <span className='text-orange text-5xl'>3</span> Days
             </p>
-            <p className="text-5xl text-white font-bold mb-16">
-            <span className='text-orange text-5xl'>9</span> Workshops
+            <p className="text-4xl text-white font-bold mb-16">
+            <span className='text-orange text-4xl'>9</span> Workshops
             </p>
             <p className="text-5xl text-white font-bold mb-16">
             <span className='text-orange text-5xl'>7</span>  Speakers
