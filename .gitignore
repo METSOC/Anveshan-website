@@ -20,7 +20,7 @@ dist-ssr
 .idea
 .DS_Store
 *.suo
-*.ntvs*
+.ntvs
 *.njsproj
 *.sln
 *.sw?
@@ -28,3 +28,8 @@ dist-ssr
 
 .yarn/
 yarn.lock
+
+
+.yarn/
+yarn.lock
+package-lock.json
