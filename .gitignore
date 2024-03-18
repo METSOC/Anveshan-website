@@ -27,4 +27,4 @@ dist-ssr
 
 
 .yarn/
-yarn.lock/
+yarn.lock

@@ -3,7 +3,6 @@ import Registration from "./pages/Registration";
 import Homepage from "./pages/Homepage";
 import Events from "./pages/Events";
 import ContactUs from "./components/ContactUs/ContactUs";
-import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -13,7 +12,6 @@ function App() {
         <Route path="/signup" element={<Registration type="signup" />} />
         <Route path="/events" element={<Events/>} />
         <Route path="/contactus" element={<ContactUs/>} />
-        <Route path="/footer" element={<Footer/>} />
       </Routes>
     </>
   );
