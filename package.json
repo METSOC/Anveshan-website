@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@flaticon/flaticon-uicons": "^3.1.0",
+    "@material-tailwind/react": "^2.1.9",
     "framer-motion": "^11.0.12",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",

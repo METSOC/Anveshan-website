@@ -2,9 +2,13 @@ import { Link } from "react-router-dom";
 import hero from "../../public/hero.svg";
 import CountdownTimer from "../components/countdown";
 import Speaker from "../components/speakers";
+import Slider from "../components/slider";
+import { FAQ } from "../components/faq";
+import bg from "../../public/bg.svg";
 import Navbar from "../components/Navbar";
 
 const backgroundImageUrl = `url(${hero})`;
+const backgroundImageUrl2 = `url(${bg})`;
 const Homepage = () => {
   const targetDate = new Date();
 
@@ -12,7 +16,7 @@ const Homepage = () => {
 
   return (
     <>
-    <Navbar/>
+      <Navbar />
       <div
         style={{
           backgroundImage: backgroundImageUrl,
@@ -24,9 +28,14 @@ const Homepage = () => {
         }}
         className="bg-[#000000] w-full h-full"
       >
-        <div className="flex flex-col justify-center bg-[#00000060] items-center">
-          <div className="flex flex-row justify-center xl:gap-[320px] lg:gap-[320px] gap-24">
-            <h1 className="text-white xl:text-[200px] lg:text-[150px] text-[80px] sm:text-[120px] font-jost xl:mt-32 lg:mt-42 mt-48">
+        <div className="flex flex-col">
+          <div className=" w-100 flex justify-center font-bold">
+            {" "}
+            <div className="mt-10"></div>
+          </div>
+
+          <div className="flex flex-row">
+            <h1 className="text-white text-[200px] font-jost mt-32 ml-64">
               reborn
             </h1>
             <div className="flex flex-col justify-center items-center xl:p-36 lg:p-1 mt-28">
@@ -102,9 +111,7 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div>
-        <Speaker />
-      </div>
+      <Speaker />
     </>
   );
 };
