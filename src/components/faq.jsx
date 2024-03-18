@@ -40,7 +40,7 @@ export function FAQ() {
       >
         <AccordionHeader
           onClick={() => handleOpen(1)}
-          className={`transition-colors text-sm lg:text-xl w-[300px] lg:w-[900px] ${
+          className={`transition-colors text-sm lg:text-xl w-[300px] lg:w-[1000px] ${
             open === 1 ? "ml-5 text-[#E17343]" : "ml-5"
           }`}
         >
@@ -70,18 +70,18 @@ export function FAQ() {
       >
         <AccordionHeader
           onClick={() => handleOpen(2)}
-          className={`transition-colors text-sm lg:text-xl w-[300px] lg:w-[900px] ${
+          className={`transition-colors text-sm lg:text-xl w-[300px] lg:w-[1000px] ${
             open === 2 ? "ml-5 text-[#E17343]" : "ml-5"
           }`}
         >
           How do I keep track of regular updates?
           <FaChevronDown
-            className={`lg:ml-[560px] text-3xl ml-12 ${
+            className={`lg:ml-[554px] text-3xl ml-12 ${
               open === 2 ? "hidden" : "text-[#E17343]"
             }`}
           />
           <FaChevronUp
-            className={`lg:ml-[560px] text-3xl ml-12 ${
+            className={`lg:ml-[554px] text-3xl ml-12 ${
               open === 2 ? "text-white" : "hidden"
             }`}
           />
@@ -99,18 +99,18 @@ export function FAQ() {
       >
         <AccordionHeader
           onClick={() => handleOpen(3)}
-          className={`transition-colors text-sm lg:text-xl w-[300px] lg:w-[900px] ${
+          className={`transition-colors text-sm lg:text-xl w-[300px] lg:w-[1000px] ${
             open === 3 ? "ml-5 text-[#E17343]" : "ml-5"
           }`}
         >
           Which documents do I need to carry?
           <FaChevronDown
-            className={`lg:ml-[590px] text-3xl ml-14 ${
+            className={`lg:ml-[575px] text-3xl ml-14 ${
               open === 3 ? "hidden" : "text-[#E17343]"
             }`}
           />
           <FaChevronUp
-            className={`lg:ml-[590px] text-3xl ml-14 ${
+            className={`lg:ml-[575px] text-3xl ml-14 ${
               open === 3 ? "text-white" : "hidden"
             }`}
           />
@@ -129,18 +129,18 @@ export function FAQ() {
       >
         <AccordionHeader
           onClick={() => handleOpen(4)}
-          className={`transition-colors text-sm lg:text-xl w-[300px] lg:w-[900px] ${
+          className={`transition-colors text-sm lg:text-xl w-[300px] lg:w-[1000px] ${
             open === 4 ? "ml-5 text-[#E17343]" : "ml-5"
           }`}
         >
           Is the participation in Events/Guests Lectures paid?
           <FaChevronDown
-            className={`lg:ml-[500px] text-3xl ${
+            className={`lg:ml-[478px] text-3xl ${
               open === 4 ? "hidden" : "text-[#E17343]"
             }`}
           />
           <FaChevronUp
-            className={`lg:ml-[500px] text-3xl ${
+            className={`lg:ml-[478px] text-3xl ${
               open === 4 ? "text-white" : "hidden"
             }`}
           />
