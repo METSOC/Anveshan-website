@@ -8,12 +8,11 @@ import Navbar from '../components/Navbar';
 const Events = () => {
   return (
     <>
-      <Navbar/>
+    
       <div className="relative bg-cover bg-center h-screen flex items-center" style={{backgroundImage: `url(${bgImage})`}}>
-
+ <Navbar />
       <section className="grid mx-auto h-[90vh] px-4  sm:px-6 lg:px-8 max-w-full">
-        <p className='text-center text-white text-5xl font-extrabold top-4'>Event <span className='text-orange text-5xl -ml-4'>s</span> </p>
-        <p className='text-center text-white'><a href='/'>Home</a> /Events</p>
+        <p className='text-center text-white mt-4 text-5xl font-extrabold top-4'>Event <span className='text-orange text-5xl -ml-4'>s</span> </p>
         <div className="grid mx-auto max-w-screen-xl px-4 py-8  lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
              <p className="text-5xl text-white font-bold mb-16">
