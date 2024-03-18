@@ -3,7 +3,6 @@ import hero from "../../public/hero.svg";
 import CountdownTimer from "../components/countdown";
 import Speaker from "../components/speakers";
 import Slider from "../components/slider";
-import Navbar from "../components/Navbar/Navbar";
 import { FAQ } from "../components/faq";
 import bg from "../../public/bg.svg";
 import Navbar from "../components/Navbar";
@@ -32,9 +31,7 @@ const Homepage = () => {
         <div className="flex flex-col">
           <div className=" w-100 flex justify-center font-bold">
             {" "}
-            <div className="mt-10">
-              <Navbar />
-            </div>
+            <div className="mt-10"></div>
           </div>
 
           <div className="flex flex-row">
