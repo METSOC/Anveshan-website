@@ -13,7 +13,7 @@ dist-ssr
 *.local
 .env*.local
 .env
-package.json
+yarn.lock
 package-lock.json
 
 # Editor directories and files
