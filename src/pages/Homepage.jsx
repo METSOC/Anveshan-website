@@ -16,7 +16,7 @@ const Homepage = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div
         style={{
           backgroundImage: backgroundImageUrl,
