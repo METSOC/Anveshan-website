@@ -1,7 +1,7 @@
 import { IoIosCall } from "react-icons/io";
 
 import { MdOutlineEmail } from "react-icons/md";
- 
+import Footer from "../Footer/Footer";
 //import head from "../Asset/head.png";
 import mainbackground from "../../Asset/imager.png";
 import { FaLocationDot } from "react-icons/fa6";
@@ -112,6 +112,7 @@ const ContactUs = () => {
         </div>
       </div>
       <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+      <Footer/>
     </div>
   );
 };
