@@ -9,7 +9,9 @@ const Contact = () => {
 
   return (
     <>
-    <Navbar/>
+    
+<Navbar/>
+
       <div
         style={{
           backgroundImage: backgroundImageUrl,
@@ -21,6 +23,8 @@ const Contact = () => {
         }}
         className="bg-[#000000] w-full h-full"
       >
+       
+
        <p className="text-center h-[100vh] m-auto text-5xl text-white font-extrabold">Contact Us</p>
       </div>
     </>
