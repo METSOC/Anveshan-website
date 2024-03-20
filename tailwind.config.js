@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+ 
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}","./node_modules/tw-elements-react/dist/js/**/*.js"],
   theme: {
     colors: {
       white: "#FFFFFF",
@@ -29,8 +30,12 @@ export default {
         inter: ["'Inter'", "sans-serif"],
         gelasio: ["'Gelasio'", "serif"],
         jost: ["Jost", "sans-serif"],
+        
+          libre: ['"Yuji Boku"', "sans-serif"]
+        
       },
     },
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [require("tw-elements-react/dist/plugin.cjs")],
 };

@@ -6,7 +6,7 @@ import Slider from "../components/slider";
 import { FAQ } from "../components/faq";
 import bg from "../../public/bg.svg";
 import Navbar from "../components/Navbar";
-
+import Footer from "../components/Footer/Footer";
 const backgroundImageUrl = `url(${hero})`;
 const backgroundImageUrl2 = `url(${bg})`;
 const Homepage = () => {
@@ -112,6 +112,7 @@ const Homepage = () => {
       </div>
 
       <Speaker />
+      <Footer />
     </>
   );
 };

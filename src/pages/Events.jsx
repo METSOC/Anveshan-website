@@ -4,7 +4,8 @@ import animation from '../../public/lottie.json'
 import bgImage from "../../public/spark.png"
 import TimelinePage from './Timeline';
 import Navbar from '../components/Navbar';
-
+import Footer from '../components/Footer/Footer';
+ 
 const Events = () => {
   return (
     <>
@@ -49,6 +50,7 @@ const Events = () => {
       </section>
     </div>
     <TimelinePage/>
+     <Footer/>
    </>
   )
 }
