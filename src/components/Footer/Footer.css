@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+
+@media only screen and (min-width: 200px) {
+    /* mobile */
+    #footbg {
+        /* background-image: url("/footerback.png");   */
+        background-color: black;
+         width: auto;
+         border: 0%;
+         
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    /* tablets */
+    #footbg {
+        /* background-image: url("/footerback.png");   */
+        background-color: black;
+        width: auto;
+        background-size: cover;
+        border: 0%;
+    }
+}
+
+
+@media only screen and (min-width: 1140px) {
+    /* desktop */
+    #footbg {
+        /* background-image: url("/footerback.png") ; */
+        width: auto;
+        background-color: black;
+        background-size: cover;
+        border: 0%;
+
+    }
+}

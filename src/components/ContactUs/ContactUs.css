@@ -1,0 +1,45 @@
+
+
+.bg-pattern{
+    background-image: url(/contact.png);
+             
+    
+    height: "55rem";
+    width: "20rem";
+    background-repeat: "no-repeat";
+    background-size: "cover";
+     
+ }
+
+#shaunbg {
+    background-image: url("/contact.png");
+    background-size: cover;
+    /* default */
+}
+
+
+@media only screen and (min-width: 360px) {
+    /* mobile */
+    #shaunbg {
+        background-image: url("/contact.png");  
+         
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    /* tablets */
+    #shaunbg {
+        background-image: url("/contactland.png");  
+        width: 900px;
+    }
+}
+
+
+@media only screen and (min-width: 1140px) {
+    /* desktop */
+    #shaunbg {
+        background-image: url("/contactland.png") ;
+        width: 900px;
+
+    }
+}

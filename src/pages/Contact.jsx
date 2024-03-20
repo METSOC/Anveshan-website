@@ -23,6 +23,7 @@ const Contact = () => {
       >
        <p className="text-center h-[100vh] m-auto text-5xl text-white font-extrabold">Contact Us</p>
       </div>
+      
     </>
   );
 };
