@@ -16,7 +16,7 @@ const Homepage = () => {
 
   return (
     <>
-      <Navbar />
+     
       <div
         style={{
           backgroundImage: backgroundImageUrl,
@@ -28,6 +28,7 @@ const Homepage = () => {
         }}
         className="bg-[#000000] w-full h-full"
       >
+         <Navbar />
         <div className="flex flex-col">
           <div className=" w-100 flex justify-center font-bold">
             {" "}
